@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T15:49:56.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="C00_otRSbQMnr9JUtFfo" version="24.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T23:45:14.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="jn38oWPMjR4Vj9G0_SgE" version="24.2.8" type="github">
   <diagram name="Página-1" id="6egSOjgE-O1hiDSKdhsU">
-    <mxGraphModel dx="2577" dy="2039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5027" dy="3257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,12 +157,6 @@
             <mxPoint x="708.12" y="581" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FNOvOqjHY98MI1bRNCqG-255" value="&lt;b&gt;Criptografia&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;JWT&lt;/span&gt;&lt;/div&gt;OAtuth2" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FNOvOqjHY98MI1bRNCqG-1">
-          <mxGeometry x="1398.12" y="206.5" width="71.88" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="FNOvOqjHY98MI1bRNCqG-256" value="&lt;br&gt;&lt;b&gt;Adicionar&lt;/b&gt;&lt;br&gt;&lt;br&gt;AWS KMS&lt;br&gt;AWS Auto Scalling" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FNOvOqjHY98MI1bRNCqG-1">
-          <mxGeometry x="1258.12" y="195.5" width="101.88" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="FNOvOqjHY98MI1bRNCqG-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FNOvOqjHY98MI1bRNCqG-13" source="FNOvOqjHY98MI1bRNCqG-24" target="FNOvOqjHY98MI1bRNCqG-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -195,6 +189,39 @@
         </mxCell>
         <mxCell id="FNOvOqjHY98MI1bRNCqG-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FNOvOqjHY98MI1bRNCqG-13" source="FNOvOqjHY98MI1bRNCqG-42" target="FNOvOqjHY98MI1bRNCqG-38">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNOvOqjHY98MI1bRNCqG-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FNOvOqjHY98MI1bRNCqG-13" source="FNOvOqjHY98MI1bRNCqG-257" target="FNOvOqjHY98MI1bRNCqG-259">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNOvOqjHY98MI1bRNCqG-257" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.kms;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="FNOvOqjHY98MI1bRNCqG-13">
+          <mxGeometry x="1940" y="160" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="FNOvOqjHY98MI1bRNCqG-259" value="&lt;h1 style=&quot;margin-top: 0px; padding: 16px 0px 0px 16px;&quot;&gt;AWS KMS&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style=&quot;padding-right: 16px;&quot;&gt;&lt;li&gt;Guarda uma chave privada de criptografia simétrica (AES-256), responsável por criptografar a chave privada da carteira do cliente antes de salvar na base de dados.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Cada serviço vai possuir uma chave púbica e privada de criptografia assimétrica (RSA) que será utilizada na comunicação end-to-end entre os serviços.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;strokeColor=default;" vertex="1" parent="FNOvOqjHY98MI1bRNCqG-13">
+          <mxGeometry x="2120" y="98.44" width="310" height="216.13" as="geometry" />
+        </mxCell>
+        <mxCell id="FNOvOqjHY98MI1bRNCqG-260" value="&lt;h1 style=&quot;margin-top: 0px; padding: 16px 0px 0px 16px;&quot;&gt;Wallet service&lt;/h1&gt;&lt;p style=&quot;padding-left: 16px; padding-right: 16px;&quot;&gt;Cada cliente possuirá uma chave pública e privada de criptografia assimétrica (RSA), a chave pública será responsável por receber ativos e a chave privada será responsável por enviar ativos.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;strokeColor=default;perimeterSpacing=0;align=left;" vertex="1" parent="FNOvOqjHY98MI1bRNCqG-13">
+          <mxGeometry x="2120" y="370" width="310" height="174.62" as="geometry" />
+        </mxCell>
+        <mxCell id="FNOvOqjHY98MI1bRNCqG-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FNOvOqjHY98MI1bRNCqG-13" source="FNOvOqjHY98MI1bRNCqG-217" target="FNOvOqjHY98MI1bRNCqG-260">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNOvOqjHY98MI1bRNCqG-266" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="FNOvOqjHY98MI1bRNCqG-13" source="FNOvOqjHY98MI1bRNCqG-257" target="FNOvOqjHY98MI1bRNCqG-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1580" y="260" as="sourcePoint" />
+            <mxPoint x="1630" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNOvOqjHY98MI1bRNCqG-267" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="FNOvOqjHY98MI1bRNCqG-13" source="FNOvOqjHY98MI1bRNCqG-257" target="FNOvOqjHY98MI1bRNCqG-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1580" y="290" as="sourcePoint" />
+            <mxPoint x="1630" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNOvOqjHY98MI1bRNCqG-270" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="FNOvOqjHY98MI1bRNCqG-13" source="FNOvOqjHY98MI1bRNCqG-257" target="FNOvOqjHY98MI1bRNCqG-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1600" y="290" as="sourcePoint" />
+            <mxPoint x="1650" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
